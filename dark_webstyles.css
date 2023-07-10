@@ -57,6 +57,7 @@ h3 {
     font-family: 'Bitstream Vera Sans Mono', sans-serif;
     font-weight: 100;
     font-size: xx-large;
+    overflow-wrap: break-word;
 }
 
 body {
