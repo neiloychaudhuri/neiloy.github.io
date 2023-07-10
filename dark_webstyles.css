@@ -1,0 +1,149 @@
+.headtext {
+  font-family: '60s Scoreboard', sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+
+  color: #fbe6e6;
+
+    text-shadow: 0 0 5px #ff0000,
+                0 0 10px #ff0000,
+                0 0 20px #ff0000;
+  
+}
+
+.headliner {
+  margin: 0%;
+  scroll-behavior: smooth;
+  position: fixed;
+}
+
+.typewriter h3 {
+  color: #ffc7c7;
+  font-family: 'Bitstream Vera Sans Mono', sans-serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #ffc7c7; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret 0.8s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ffc7c7 }
+}
+
+h3 {
+    font-size: 40px;
+    color:rgb(252, 202, 202);
+    text-align: left;
+    font-family: 'Bitstream Vera Sans Mono', sans-serif;
+    font-weight: 100;
+}
+
+section {
+  padding: 5%;
+  background-color: #2b2b2b;
+  border-radius: 15px;
+  margin: 2%;
+  display: inline-flex;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+    justify-content: center;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: '60s Scoreboard', sans-serif;
+    color:rgb(252, 202, 202);
+    
+}
+
+
+.zoom {
+  transition: transform .2s; 
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  display: inline-flex;
+}
+
+.zoom:hover {
+  transform: scale(1.05); 
+}
+
+.neiloy {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  border-radius: 15px;
+  display: flex;
+  margin-left: 40px;
+  display: table-row;
+  border-width: 3px;
+  border: #ffb7b7;
+}
+
+
+.abt_me {
+    color:rgb(202, 252, 220);
+    font-size: medium;
+    font-family: 'Bitstream Vera Sans Mono', sans-serif;
+    overflow-wrap: break-word;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.established {
+    font-style: italic;
+    color:#35ba71;
+}
+
+
+.cn_tower {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  display: flex;
+  border-width: 3px;
+  border: #ffb7b7;
+  margin-left: 50px;
+}
+
+.hands_full {
+    color:rgb(202, 229, 252);
+    font-size: medium;
+    font-family: 'Bitstream Vera Sans Mono', sans-serif
+}
+
+h2 {
+    color:rgb(202, 229, 252);
+}
+
+
+.social {
+    height: 50px;
+    width: 50px;
+    justify-content: right;
+}
+
+.contact_section {
+  background-color: #414141;
+  width: 60px;
+  height: 175px;
+  display: block;
+}
