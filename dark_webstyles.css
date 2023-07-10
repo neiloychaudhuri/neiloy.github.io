@@ -1,7 +1,7 @@
 .headtext {
   font-family: '60s Scoreboard', sans-serif;
   font-weight: bold;
-  font-size: x-large;
+  font-size: 25px;
 
   color: #fbe6e6;
 
@@ -58,6 +58,7 @@ body {
 h1 {
     font-family: '60s Scoreboard', sans-serif;
     color:rgb(252, 202, 202);
+    font-size: 25px;
     
 }
 
@@ -69,7 +70,7 @@ h1 {
   margin: 2%;
   display: inline-flex;
   max-width: 100%;
-  max-height: 500px;
+  max-height: auto;
 }
 
 .zoom {
@@ -89,9 +90,8 @@ h1 {
   height: 100%;
   object-fit: scale-down;
   border-radius: 15px;
-  display: flex;
-  margin-left: 40px;
-  display: table-row;
+  display: inline-flex;
+  margin-left: 3%;
   border-width: 3px;
   border: #ffb7b7;
 }
@@ -99,7 +99,7 @@ h1 {
 
 .abt_me {
     color:rgb(202, 252, 220);
-    font-size: medium;
+    font-size: 16px;
     font-family: 'Bitstream Vera Sans Mono', sans-serif;
     overflow-wrap: break-word;
     max-width: 600px;
@@ -109,6 +109,7 @@ h1 {
 .established {
     font-style: italic;
     color:#35ba71;
+    font-size: 18px;
 }
 
 
