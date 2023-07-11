@@ -13,9 +13,10 @@
 
 
 .headliner {
-  margin: 0%;
+  left: 0px;
   scroll-behavior: smooth;
   position: fixed;
+  height: 50px;
 }
 
 
