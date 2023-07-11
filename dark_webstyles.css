@@ -50,7 +50,6 @@ h1 {
   display: flex;
   max-width: auto;
   max-height: auto;
-  align-content: space-evenly;
 }
 
 .top_sec {
@@ -64,7 +63,10 @@ h1 {
   transform: scale(1.05); 
 }
 
-
+.next {
+  display: block;
+  padding-left: 20px;
+}
 
 .neiloy {
   max-width: 200px;
