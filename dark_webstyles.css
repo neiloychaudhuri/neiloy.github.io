@@ -103,6 +103,19 @@ h1 {
   text-align: justify;
 }
 
+.phototext {
+  color: rgb(202, 252, 220);
+  font-family: 'Bitstream Vera Sans Mono', sans-serif;
+  font-size: medium;
+  display: inline-block;
+}
+
+.texterr {
+  display: inline-block;
+  color: rgb(202, 252, 220);
+  font-size: 30px;
+}
+
 h2 {
     color:rgb(202, 229, 252);
 }
