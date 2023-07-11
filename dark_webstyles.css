@@ -49,7 +49,8 @@ h1 {
   margin: 2%;
   display: inline-flex;
   max-width: auto;
-  max-height: auto;
+  max-height: 300px;
+  align-content: space-evenly;
 }
 
 .zoom {
@@ -72,14 +73,13 @@ h1 {
 }
 
 .neiloy {
-  max-width: 100%;
+  max-width: auto;
   max-height: auto;
   border-radius: 15px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  margin-top: 2%;
   object-fit: cover;
-  
+  align-content: space-evenly;
 }
 
 .established {
