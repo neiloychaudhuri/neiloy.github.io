@@ -19,6 +19,32 @@
   height: 50px;
 }
 
+.typewriter h3 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(252, 202, 202); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  max-width: 350px;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+.about {
+  max-width: 100px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(252, 202, 202); }
+}
+
 
 h3 {
     font-size: xx-large;
@@ -40,7 +66,6 @@ h1 {
     font-family: '60s Scoreboard', sans-serif;
     color:rgb(252, 202, 202);
     font-size: 25px;
-    
 }
 
 .introducing {
