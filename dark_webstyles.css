@@ -19,7 +19,7 @@
 }
 
 .typewriter {
-  width: 27ch;
+  width: 25ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow-wrap: break-word;
@@ -84,6 +84,13 @@ h1 {
   display: inline-flex;
 }
 
+.top_sec {
+  align-content: center;
+  display: flex;
+  max-width: 100%;
+  max-height: auto;
+}
+
 .zoom:hover {
   transform: scale(1.05); 
 }
@@ -93,8 +100,9 @@ h1 {
   height: 100%;
   border-radius: 15px;
   display: inline-block;
-  border: #ffb7b7;
-  padding: 2%;
+  margin: 2%;
+  object-fit: cover;
+  
 }
 
 .established {
