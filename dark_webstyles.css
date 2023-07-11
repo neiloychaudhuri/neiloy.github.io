@@ -49,22 +49,14 @@ h1 {
   margin: 2%;
   display: flex;
   max-width: auto;
-  max-height: 601px;
+  max-height: auto;
   align-content: space-evenly;
-}
-
-.zoom {
-  transition: transform .2s; 
-  width: 300px;
-  height: 400px;
-  margin: 0 auto;
-  display: inline-flex;
 }
 
 .top_sec {
   align-content: center;
   display: flex;
-  max-width: 100%;
+  max-width: auto;
   max-height: auto;
 }
 
