@@ -47,7 +47,7 @@ h1 {
   background-color: #2b2b2b6c;
   border-radius: 15px;
   margin: 2%;
-  display: inline-flex;
+  display: flex;
   max-width: auto;
   max-height: 601px;
   align-content: space-evenly;
