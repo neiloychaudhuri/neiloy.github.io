@@ -76,7 +76,7 @@ h1 {
   max-width: auto;
   max-height: auto;
   border-radius: 15px;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   object-fit: scale-down;
   align-content: space-evenly;
