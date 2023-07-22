@@ -50,7 +50,7 @@ h3 {
     font-size: xx-large;
     color:rgb(252, 202, 202);
     text-align: left;
-    font-family: "Andale Mono", AndaleMono, monospace;
+    font-family: monaco,Consolas,Lucida Console,monospace;
     font-weight: 100;
     font-size: xx-large;
     overflow-wrap: break-word;
@@ -63,7 +63,7 @@ body {
 }
 
 h1 {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
     color:rgb(252, 202, 202);
     font-size: 25px;
 }
@@ -122,7 +122,7 @@ h1 {
 .hands_full {
   color:rgb(202, 252, 220);
   font-size: medium;
-  font-family: "Andale Mono", AndaleMono, monospace;
+  font-family: monaco,Consolas,Lucida Console,monospace;
   word-wrap: break-word;
   max-width: 100%;
   text-align: justify;
@@ -130,7 +130,7 @@ h1 {
 
 .phototext {
   color: rgb(202, 252, 220);
-  font-family: "Andale Mono", AndaleMono, monospace;
+  font-family: monaco,Consolas,Lucida Console,monospace;
   font-size: medium;
   display: inline-block;
 }
